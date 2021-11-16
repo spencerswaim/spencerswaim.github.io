@@ -4,4 +4,12 @@ body {
   background-color: #ddd;
 }
 
-#wrap: 70%
+#wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section {
+  background-color: white;
+  padding: 2%;
+}

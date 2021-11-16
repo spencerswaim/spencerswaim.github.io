@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,39 +8,45 @@
     <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-  <link href = "slideshow.css" rel = "stylesheet" type = "text/css"
+    <link href="slideshow.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-
+    <div id="wrap">
     <header>
       Header
-      </header>
+    </header>
 
-      <nav>
-        nav
-        </nav>
-      <section>
-        <div class="slider-wrapper theme-default">
-            <div id="slider" class="nivoSlider">
-                <img src="images/packers.png" data-thumb="images/packers.png" alt="Packers" />
-                <a href="http://dev7studios.com"><img src="images/zags.jpg" data-thumb="images/zags.jpg" alt="Zags" title="Zags Nat'l Champs" /></a>
-                <img src="images/seahawks.jpeg" data-thumb="images/seahawks.jpeg" alt="Seahawks" data-transition="slideInLeft" />
-                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
-            </div>
-            <div id="htmlcaption" class="nivo-html-caption">
-                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-            </div>
-        </div>
-      </section>
+    <nav>
+      Nav
+    </nav>
 
+    <section>
+      <div class="slider-wrapper theme-default">
+          <div id="slider" class="nivoSlider">
+              <img src="images/seahakws.jpeg" data-thumb="images/seahawks.png" alt="Seahawks" />
+              <img src="images/tmobile.jpg" data-thumb="images/tmobile.jpg" alt="Mariners" title="T-Mobile Park will host the 2021 all-star game!" /></a>
+              <img src="images/sounders.jpg" data-thumb="images/sounders.jpg" alt="Sounders" data-transition="slideInRight" title="#htmlcaption1" />
+              <img src="images/zags.jpg" data-thumb="images/zags.jpg" alt="Zags" title="#htmlcaption" />
+          </div>
+          <div id="htmlcaption" class="nivo-html-caption">
+              Zags will win the national championship this year.
+          </div>
+          <div id="htmlcaption1" class="nivo-html-caption">
+              Sounders play second fiddle at Century Link Field.
+          </div>
+      </div>
+    </section>
 
-      <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
-      <script type="text/javascript" src="jquery.nivo.slider.js"></script>
-      <script type="text/javascript">
-      $(window).load(function() {
-          $('#slider').nivoSlider();
-      });
-      </script>
+    <footer>
+      Footer
+    </footer>
+  </div><!--Close wrap-->
+  <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+  <script type="text/javascript">
+  $(window).load(function() {
+      $('#slider').nivoSlider();
+  });
+  </script>
   </body>
 </html>
