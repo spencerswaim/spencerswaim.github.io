@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zags</title>
+    <link rel="icon" href=tab.png>
+    <link href="final.css" type="text/css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D4R5PYD83E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D4R5PYD83E');
+
+    </script>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="zagsslideshow.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <header> <img src="zags.jpg">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="final.html">Home</a></li>
+                <li><a href="final2.html">About</a></li>
+                <li><a href="final3.html">Mark Few</a></li>
+                <li><a href="final4.html">Tournament Prowess</a></li>
+                <li><a href="final5.html">The Future</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <p><b>Welcome to the best show in College Basketball...The little private school in Spokane deserves some recognition! </b></p>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/suggs.jpg" data-thumb="images/suggs.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/trophy.jpg" data-thumb="images/trophy.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/2021-22 team.jpg" data-thumb="images/2021-22.jpg" alt="" data-transition="slideInLeft" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                </div>
+            </div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdeZTdWJ1GSz7f_UxZRBkdiYgfam5hBi3K48nGMn3mWn0PngQ/viewform?embedded=true" width="640" height="497" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </section>
+
+
+        <div class=div>
+            <nav>
+                <a href="https://twitter.com/ZagMBB" class="twitter-follow-button" data-show-count="false">Follow Zags MBB</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+                <p>© 2021 Gonzaga MBB and Spokane. All information courtesy of Wikipedia!</p>
+
+            </nav>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+header img {
+    width: 100%;
+
+}
+
+header {
+    padding: -20px;
+    background-color: black;
+}
+
+nav {
+    background-color: #072543;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-family: sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+
+}
+
+nav a:hover {
+    background-color: greenyellow;
+    color: gray;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 2%;
+    overflow: auto;
+}
+
+section h1 {
+    color: lightpink;
+    font-family: 'Zen Dots', cursive;
+    font-size: 375%;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 215px;
+
+
+
+}
+
+section h2 {
+    color: #ec3d0f;
+    font-size: 140%;
+
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    padding: 0px;
+    text-align: center;
+
+}
+
+.tide {
+    width: 30%;
+    float: right;
+
+}
+
+.nav {
+    bottom: 0;
+    width: 100%;
+
+}
+
+nav p {
+    color: white
+}
